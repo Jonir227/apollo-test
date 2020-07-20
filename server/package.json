@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "generate": "graphql-codegen",
+    "ts": "tsc --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.3.0",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.16.2",
+    "@graphql-codegen/typescript-operations": "^1.16.2",
+    "@graphql-codegen/typescript-react-apollo": "^1.16.2",
+    "@graphql-codegen/typescript-resolvers": "^1.16.2",
+    "typescript": "^3.9.6"
+  }
+}
